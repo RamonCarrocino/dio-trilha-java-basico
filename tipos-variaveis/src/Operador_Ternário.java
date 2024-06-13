@@ -1,4 +1,4 @@
-package Operadores;
+
 public class Operador_Ternário {
     public static void main(String[] args) {
         int a, b;

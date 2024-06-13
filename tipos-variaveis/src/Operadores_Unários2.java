@@ -1,4 +1,4 @@
-package Operadores;
+
 public class Operadores_Unários2 {
     public static void main(String[] args) {
         int numero = 5;
