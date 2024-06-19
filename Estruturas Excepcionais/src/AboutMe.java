@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -25,7 +26,7 @@ public class AboutMe {
         System.out.println("Minha altura é " + altura + "m ");
         scanner.close();
         }
-        catch (InputMismatchException e) {
+        catch (InputMismatchException e){
             System.out.println ("Idade de altura devem ser numéricos.");
         }
     }
